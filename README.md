@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Resumen de App
 
-## Getting Started
+**URL de acceso:** [https://guitarla-next12.vercel.app/](https://guitarla-next12.vercel.app/)
 
-First, run the development server:
+La siguiente App trata de una **Tienda de Guitarras**, en la cual puedes ver la información detallada de un conjunto de guitarras y una serie de posts o entradas de blogs. A su vez, las guitarras pueden agregarse a un carrito de compras el cual es almacenado en _localStorage_.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Toda la información de las guitarras y posts cargados, a excepción del carrito de compras, se consume desde un [panel creado con Strapi](https://github.com/dauncosaciar/guitarla-strapi), por lo que la información es dinámica. La información, a excepción del carrito de compras, se almacena de forma persistente en una base de datos externa.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías utilizadas para desarrollo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Las tecnologías utilizadas para realizar esta aplicación son las siguientes:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Base de datos:** PostgreSQL.
+- **Framework de desarrollo:** Next.js, v12.3.4.
+- **Estilado:** CSS modules.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+PROYECTO REALIZADO DESDE EL CURSO DE UDEMY: [React - La Guía Completa: Hooks Context Redux MERN +15 Apps](https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/)
